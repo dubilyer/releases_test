@@ -11,3 +11,4 @@ jobs:
     environment: dev
     steps:
       - name: stage
+        run: echo "deploying to stage"
